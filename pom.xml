@@ -10,6 +10,7 @@
   <packaging>jar</packaging>
   <name>Vertx Typed RPC</name>
   <description>Vertx event bus based typed RPC</description>
+  <url>https://github.com/xored/vertx-typed-rpc</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -78,7 +79,10 @@
   </licenses>
 
   <scm>
+    <connection>scm:git:https://github.com/xored/vertx-typed-rpc.git</connection>
+    <developerConnection>scm:git:git@github.com:xored/vertx-typed-rpc.git</developerConnection>
     <url>https://github.com/xored/vertx-typed-rpc</url>
+    <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
@@ -86,4 +90,12 @@
     <url>https://github.com/xored/vertx-typed-rpc/issues</url>
   </issueManagement>
 
+  <developers>
+    <developer>
+      <name>Konstantin Zaitsev</name>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
 </project>
