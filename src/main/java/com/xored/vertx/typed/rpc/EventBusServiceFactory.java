@@ -11,7 +11,8 @@ import io.vertx.core.eventbus.DeliveryOptions;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.eventbus.Message;
 import io.vertx.core.eventbus.MessageConsumer;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -27,8 +28,8 @@ import java.util.concurrent.CompletableFuture;
  * 
  * @author Konstantin Zaitsev
  */
-@Slf4j
 public class EventBusServiceFactory {
+    private static final Logger log = LoggerFactory.getLogger(EventBusServiceFactory.class);
     private static final String HEADER_METHOD_NAME = "method";
 
     private static final ThreadLocal<Kryo> kryos = new ThreadLocal<Kryo>() {

@@ -21,7 +21,6 @@
     <vertx.version>3.2.0</vertx.version>
     <junit.version>4.12</junit.version>
     <kryo.version>3.0.3</kryo.version>
-    <lombok.version>1.16.6</lombok.version>
   </properties>
 
   <dependencies>
@@ -35,14 +34,6 @@
       <groupId>com.esotericsoftware</groupId>
       <artifactId>kryo-shaded</artifactId>
       <version>${kryo.version}</version>
-    </dependency>
-
-    <!-- Common utility dependencies -->
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <version>${lombok.version}</version>
-      <scope>provided</scope>
     </dependency>
 
     <!-- Logging -->
