@@ -1,0 +1,12 @@
+# ignore target build folder
+/target/
+
+# IDE related staff
+\.project
+\.classpath
+**/.settings/
+*.iml
+\.idea
+
+# Vertx Temporary files
+**/\.vertx/
