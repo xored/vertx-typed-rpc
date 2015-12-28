@@ -4,7 +4,7 @@
 
   <groupId>com.xored.vertx</groupId>
   <artifactId>vertx-typed-rpc</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
 
   <packaging>jar</packaging>
   <name>Vertx Typed RPC</name>
@@ -97,7 +97,7 @@
     <connection>scm:git:git@github.com:xored/vertx-typed-rpc.git</connection>
     <developerConnection>scm:git:git@github.com:xored/vertx-typed-rpc.git</developerConnection>
     <url>https://github.com/xored/vertx-typed-rpc</url>
-    <tag>vertx-typed-rpc-1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
