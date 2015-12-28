@@ -94,7 +94,7 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:https://github.com/xored/vertx-typed-rpc.git</connection>
+    <connection>scm:git:git@github.com:xored/vertx-typed-rpc.git</connection>
     <developerConnection>scm:git:git@github.com:xored/vertx-typed-rpc.git</developerConnection>
     <url>https://github.com/xored/vertx-typed-rpc</url>
     <tag>HEAD</tag>
