@@ -13,14 +13,14 @@ Simple wrapper for Vertx EventBus that allows organize type safety RPC communica
 ## Installation
 
 The library JARs are available on the [releases page](https://github.com/xored/vertx-typed-rpc/releases) and at [Maven Central](https://search.maven.org/#browse).
-Latest snapshots of the library including snapshot builds of master are in the [Sonatype Repository](https://oss.sonatype.org/content/groups/public/com/xored/vertx/).
+Latest snapshots of the library including snapshot builds of master are in the [Sonatype Repository](https://oss.sonatype.org/content/groups/public/com/xored/vertx/vertx-typed-rpc).
 
 ### Integration with Maven
 
 To use the Vert.x Typed RPC Services, add the following dependency to the dependencies section of your `pom.xml`:
 ```xml
 <dependency>
-  <groupId>com.xored.vertx.typed.rpc</groupId>
+  <groupId>com.xored.vertx</groupId>
   <artifactId>vertx-typed-rpc</artifactId>
   <version>1.0</version>
 </dependency>
