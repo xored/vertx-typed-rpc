@@ -2,13 +2,13 @@
 Simple wrapper for Vertx EventBus that allows organize type safety RPC like communication.
 
 ## Features
-* Type safety (it used [Kryo](github.com/EsotericSoftware/kryo) library for object serialization)
+* Type safety (it used [Kryo](https://github.com/EsotericSoftware/kryo) library for object serialization)
 * Asynchronous RPC calls by using `java.util.concurrent.CompletableFuture`
 * Server side exception handling
 
 ## Installation
 
-The library JARs are available on the [releases page](https://github.com/xored/vertx-typed-rpc/releases) and at [Maven Central](search.maven.org/#browse).
+The library JARs are available on the [releases page](https://github.com/xored/vertx-typed-rpc/releases) and at [Maven Central](https://search.maven.org/#browse).
 
 ### Integration with Maven
 
