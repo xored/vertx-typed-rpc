@@ -6,7 +6,7 @@ jdk:
 script: mvn verify
 
 after_success:
-  - mvn deploy --settings settings.xml
+  - mvn deploy --settings .travis-settings.xml
 
 env:
   global:

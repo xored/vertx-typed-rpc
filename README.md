@@ -1,5 +1,9 @@
 # Vertx EventBus Typed RPC Services
-Simple wrapper for Vertx EventBus that allows organize type safety RPC like communication.
+[![Build Status](https://travis-ci.org/xored/vertx-typed-rpc.svg?branch=master)](https://travis-ci.org/xored/vertx-typed-rpc)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.xored.vertx/vertx-typed-rpc/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.xored.vertx/vertx-typed-rpc/)
+[![License](https://img.shields.io/badge/license-Apache 2.0 -blue.svg?style=flat)](https://github.com/xored/vertx-typed-rpc/blob/master/LICENSE)
+
+Simple wrapper for Vertx EventBus that allows organize type safety RPC communication.
 
 ## Features
 * Type safety (it used [Kryo](https://github.com/EsotericSoftware/kryo) library for object serialization)
@@ -9,6 +13,7 @@ Simple wrapper for Vertx EventBus that allows organize type safety RPC like comm
 ## Installation
 
 The library JARs are available on the [releases page](https://github.com/xored/vertx-typed-rpc/releases) and at [Maven Central](https://search.maven.org/#browse).
+Latest snapshots of the library including snapshot builds of master are in the [Sonatype Repository](https://oss.sonatype.org/content/groups/public/com/xored/vertx/).
 
 ### Integration with Maven
 
